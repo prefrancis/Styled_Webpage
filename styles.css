@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;                 
+  background-color: grey;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
